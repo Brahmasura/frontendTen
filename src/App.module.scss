@@ -1,0 +1,15 @@
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color:hsl(210, 60%, 98%);
+  padding: 60px 0;
+
+  .container {
+    background-color: hsl(0, 0%, 100%);
+    // border: 1px solid black;
+    width: 600px;
+    min-height: 600px;
+    padding:20px;
+  }
+}

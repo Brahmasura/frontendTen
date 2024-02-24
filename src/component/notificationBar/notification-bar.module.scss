@@ -1,0 +1,39 @@
+.notifyOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .leftDiv {
+    width: 200px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      color: hsl(224, 21%, 14%);
+      font-weight: 700;
+    }
+
+    span {
+      border-radius: 6px;
+      border: none;
+      color: white;
+      width: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: hsl(219, 85%, 26%);
+    }
+  }
+
+  p:nth-child(2) {
+    cursor: pointer;
+    color: hsl(219, 14%, 63%);
+    align-self: end;
+    font-size: 20px;
+
+    &:hover {
+      color: hsl(219, 85%, 26%);
+    }
+  }
+}
